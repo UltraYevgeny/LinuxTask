@@ -1,0 +1,9 @@
+if [ -d $1 ] 
+then
+cd $1
+rm *.bak
+rm *.tmp
+rm *.backup
+else
+echo "folder does not exist"
+fi
